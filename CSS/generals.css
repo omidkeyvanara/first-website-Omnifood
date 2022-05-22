@@ -55,6 +55,9 @@ body {
 html {
   font-size: 62.5%;
 }
+strong{
+  font-weight: 500;
+}
 
 .heading-primary,
 .heading-secondary,
