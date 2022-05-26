@@ -177,14 +177,10 @@ border: 3px solid #fdf2e9 ;
 /* *************************** section how ***************************** */
 
 
-.container{
-max-width: 120rem;
-padding: 0 3.2rem;
-margin: 0 auto;
-  /* background-color: aquamarine; */
-}
 
-.section-how{padding: 9.6rem 0;
+
+.section-how{
+  padding: 9.6rem 0;
   /* background-color: aqua; */
 }
 
@@ -296,6 +292,12 @@ font-size: 1.8rem;
     box-shadow:  0 2.4rem 4.8rem rgba(0, 0, 0, 0.75);
     border-radius: 12px;
     overflow: hidden;
+    transition: all 0.3s;
+  }
+  
+  .meal:hover{
+    transform: translateY(-1.2rem);
+    box-shadow:  0 3.2rem 6.4rem rgba(0, 0, 0, 0.4);
 }
 
 .meal-box{
@@ -320,4 +322,10 @@ font-size: 1.8rem;
   width: 3rem;
   height: 3rem;
   color: #e67e22;
+}
+
+.all-recipes{
+  font-size: 1.8rem;
+  text-align: center;
+
 }
