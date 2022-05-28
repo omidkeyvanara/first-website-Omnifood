@@ -22,7 +22,7 @@ for P: 1.6
 - tints: #fdf2e9
 - shades: #cf711f
 - accents: 
-- greys: #555 #333
+- greys: #555 #333 #6f6f6f
 
 
 ------------ 05 SHADOWS
@@ -59,6 +59,13 @@ strong{
   font-weight: 500;
 }
 
+
+.container{
+max-width: 120rem;
+padding: 0 3.2rem;
+margin: 0 auto;
+  /* background-color: aquamarine; */
+}
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
@@ -82,7 +89,7 @@ strong{
 .heading-tertiary {
   font-size: 3rem;
   line-height: 1.2;
-  margin-bottom: 3.2;
+  margin-bottom: 3.2rem;
 }
 
 .subheading {
@@ -95,8 +102,16 @@ strong{
   letter-spacing: 0.75px;
 }
 
+.center-text{
+  text-align: center;
+}
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md{
+  margin-bottom: 4.8rem !important;
 }
 
 .grid {
@@ -119,4 +134,20 @@ strong{
 
 .grid--center-alg{
   align-items:center;
+}
+
+.link:link,
+.link:visited{
+  text-decoration: none;
+  color: #e67e22;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active{
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
 }
