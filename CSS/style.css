@@ -468,6 +468,11 @@ color: #6f6f6f;
     transform: rotate(45deg);
 }
 
+.plans-details{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: center;
+}
 
 /* *************************** section feature ***************************** */
 
@@ -492,5 +497,46 @@ color: #333;
 .feature-text{
 font-size: 1.8rem;
 line-height: 1.8;
+
+}
+
+/* *************************** section CTA ***************************** */
+
+.section-cta{
+    padding: 9.6rem;
+}
+
+.cta{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.75);
+    background-color: #e67e22;
+    border-radius: 11px;
+    height: 50rem;
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22 );
+    overflow: hidden;
+
+}
+
+.cta-text-box{
+    color: #45260a;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+.cta .heading-secondary{
+    color: #45260a;
+    margin-bottom: 3.2rem ;
+}
+
+.cta-text{
+    font-size: 1.8rem;
+    line-height: 1.8;
+
+
+}
+
+.cta-image-box{
+    background-image: linear-gradient(to right bottom, rgba(226, 173, 126, 0.35), rgba(173, 116, 65, 0.35 ) ),
+    url('../img/eating.jpg');
 
 }
