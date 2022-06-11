@@ -585,3 +585,10 @@ btn-sub:active {
     outline: none;
     box-shadow: 0 0 0 0.8rem rgba(250, 228, 208, 0.5);
 }
+
+
+/* *************************** footer ***************************** */
+
+.footer {
+    padding: 9.6rem;
+}
