@@ -18,7 +18,7 @@
 .main-nav-list {
     list-style: none;
     display: flex;
-    gap: 3.2rem;
+    gap: 4.8rem;
     align-items: center;
 
 
@@ -56,11 +56,14 @@
 
 
 
+
 /* *************************** HERO ***************************** */
 .section-hero {
     background-color: #fdf2e9;
     padding: 4.8rem 0 9.6rem 0;
 }
+
+
 
 .hero {
     max-width: 130rem;
@@ -78,6 +81,10 @@
     font-size: 2rem;
     line-height: 1.6;
     margin-bottom: 4.8rem;
+}
+
+.hero-img {
+    width: 100%;
 }
 
 /* *************************** btn & DELIVERED ***************************** */
@@ -99,7 +106,7 @@
 .btn-sub:link,
 .btn-sub:visited {
     background-color: #fff;
-    color: #333;
+    color: #333 !important;
 
 }
 
@@ -142,9 +149,6 @@
     font-weight: 700;
 }
 
-.hero-img {
-    width: 100%;
-}
 
 /* ***************************  featured-in ***************************** */
 
@@ -272,6 +276,22 @@
     color: #cf711f;
 }
 
+.meal {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.75);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.meal:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.4);
+}
+
+.meal-box {
+    padding: 4rem;
+}
+
 .tag {
     display: inline-block;
     padding: 0.4rem 0.8rem;
@@ -294,23 +314,6 @@
 .tag--paola {
     background-color: rgb(241, 182, 105);
 }
-
-.meal {
-    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.75);
-    border-radius: 12px;
-    overflow: hidden;
-    transition: all 0.3s;
-}
-
-.meal:hover {
-    transform: translateY(-1.2rem);
-    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.4);
-}
-
-.meal-box {
-    padding: 4rem;
-}
-
 
 .all-recipes {
     font-size: 1.8rem;
