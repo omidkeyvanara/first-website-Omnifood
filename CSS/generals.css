@@ -52,9 +52,11 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden ;
 }
 
 html {
+  overflow-x: hidden ;
   font-size: 62.5%;
 }
 
